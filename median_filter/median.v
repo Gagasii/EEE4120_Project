@@ -1,23 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 09.05.2023 10:09:11
-// Design Name: 
-// Module Name: median
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
 module median_pipeline (
   input clk,
@@ -28,7 +9,7 @@ module median_pipeline (
 
   parameter WIDTH = 3;
   parameter HEIGHT = 3;
-
+  
   reg [7:0] buffer [0:WIDTH-1][0:HEIGHT-1];
   reg [7:0] sorted [0:WIDTH*HEIGHT-1];
 
