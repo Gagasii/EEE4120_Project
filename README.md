@@ -1,1 +1,2 @@
-# EEE4120_Sobel_filter
+# EEE4120_Project
+#Median and Sobel filter
