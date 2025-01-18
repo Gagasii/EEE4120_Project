@@ -15,7 +15,7 @@ The FPGA implementation of a median and sobel filter for assisted parking system
 1. **Median Filter**: Smooths the image by removing noise while preserving edges.
 2. **Sobel Filter**: Detects edges by calculating gradients in the image
 
-# Futere enhancements
+# Future enhancements
 * Adding surport for additional filters, such as Gaussian blur.
 * Integration with camera module for live video processing.
   
