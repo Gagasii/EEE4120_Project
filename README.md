@@ -6,7 +6,10 @@ The FPGA implementation of a median and sobel filter for assisted parking system
 *  **Scalability**: Implementation designed to support additional, more complex features.
 *  **Efficient Image Processing**: Uses a pipeline for parallel execution, enabling fast and efficient image processing.
 # Hardware Requirements
-- Xilinx FPGA board
+* Xilinx FPGA development board
+  
+# Software Required
+* Xilinx Vivado
 
 # How it works
 1. **Median Filter**: Smooths the image by removing noise while preserving edges.
